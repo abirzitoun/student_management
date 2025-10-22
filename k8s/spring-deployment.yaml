@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
         - name: spring-app
-          image: achraf31/student-management:latest  # Remplace par ton image réelle
+          image: abirzit/student_management:latest  # Remplace par ton image réelle
           ports:
             - containerPort: 8080
           envFrom:
